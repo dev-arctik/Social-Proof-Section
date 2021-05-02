@@ -2,14 +2,26 @@
 * {
   margin: 0px;
   padding: 0px;
-  @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
   font-family: "Spartan", sans-serif;
 }
-
+body {
+  padding: 10%;
+}
+/* header  */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header #header_content {
+  width: 50%;
+}
 /* utility classes */
 h1 {
+  font-weight: 700;
 }
 h3 {
+  font-weight: 500;
 }
 p {
+  font-weight: 400;
 }
