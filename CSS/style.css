@@ -3,21 +3,32 @@
   margin: 0px;
   padding: 0px;
   font-family: "Spartan", sans-serif;
+  font-size: 15px;
 }
 body {
   padding: 8%;
 }
 /* header  */
 header {
-  display: flex;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10rem;
   justify-content: space-between;
 }
 header #header_content {
-  width: 50%;
+  border: 2px solid green;
 }
 header #header_content h1 {
   font-size: 3rem;
+  color: hsl(300, 43%, 22%);
 }
+header #header_content p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  padding-top: 16px;
+}
+
 /* utility classes */
 h1 {
   font-weight: 700;
