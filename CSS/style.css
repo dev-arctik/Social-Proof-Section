@@ -13,10 +13,8 @@ header {
   display: grid;
   grid-template-columns: 40% auto;
   column-gap: 5rem;
-  /* justify-content: space-between; */
 }
-#header_content {
-}
+
 #header_content h1 {
   font-size: 3rem;
   color: hsl(300, 43%, 22%);
@@ -27,9 +25,6 @@ header {
   padding-top: 16px;
 }
 
-#rating_section {
-  /* border: 2px solid red; */
-}
 #rating_section .rating {
   width: 65%;
   align-items: center;
@@ -43,7 +38,6 @@ header {
   justify-content: flex-start;
 }
 #rating_section .rating h1 {
-  /* transform: translateX(2rem); */
   color: hsl(300, 43%, 22%);
 }
 #rating_section > :nth-child(2) {
@@ -55,7 +49,6 @@ header {
 
 /* testimonial section  */
 #testimonial_section {
-  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -66,7 +59,6 @@ header {
   align-content: center;
   background-color: hsl(300, 43%, 22%);
   border-radius: 8px;
-  /* width: 22rem; */
   display: grid;
   grid-template-columns: 16% auto;
   column-gap: 16px;
