@@ -22,3 +22,15 @@ header {
 #rating_section > :nth-child(3) {
   transform: translateX(0rem);
 }
+
+/* testimonial section  */
+#testimonial_section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.testimonial {
+  grid-template-columns: 8% auto;
+  padding: 2rem 1.8rem;
+  row-gap: 28px;
+}
