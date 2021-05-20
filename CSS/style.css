@@ -55,7 +55,7 @@ header {
 
 /* testimonial section  */
 #testimonial_section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -102,13 +102,15 @@ header {
   color: hsl(333, 80%, 67%);
   font-weight: 400;
 }
-/* .testimonial h3 {
-  grid-area: status;
-  border: 2px solid black;
-} */
 .testimonial p {
   grid-area: testi;
-  color: hsl(0, 0%, 100%);
+  color: hsl(300, 24%, 96%);
+}
+#testimonial_section > :nth-child(2) {
+  transform: translateY(16px);
+}
+#testimonial_section > :nth-child(3) {
+  transform: translateY(32px);
 }
 
 /* utility classes */
