@@ -11,9 +11,9 @@ body {
 /* header  */
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40% auto;
   column-gap: 5rem;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 #header_content {
 }
@@ -31,7 +31,7 @@ header {
   /* border: 2px solid red; */
 }
 #rating_section .rating {
-  width: 75%;
+  width: 65%;
   align-items: center;
   background-color: hsl(300, 24%, 96%);
   padding: 1rem 2rem;
@@ -56,13 +56,17 @@ header {
 /* testimonial section  */
 #testimonial_section {
   border: 2px solid red;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  column-gap: 32px;
+  margin-top: 4rem;
 }
 .testimonial {
+  align-content: center;
   background-color: hsl(300, 43%, 22%);
   border-radius: 8px;
-  width: 22rem;
+  /* width: 22rem; */
   display: grid;
   grid-template-columns: 16% auto;
   column-gap: 16px;
@@ -71,7 +75,7 @@ header {
   grid-template-areas:
     "pic name"
     "testi testi";
-  padding: 1rem;
+  padding: 2rem 1.5rem;
 }
 .testimonial .img {
   display: flex;
@@ -86,8 +90,9 @@ header {
 .testimonial .name {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   grid-area: name;
+  padding: 1px 0px;
 }
 .testimonial .name h1 {
   color: hsl(0, 0%, 100%);
